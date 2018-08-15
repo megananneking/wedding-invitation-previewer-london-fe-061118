@@ -1,0 +1,115 @@
+body {
+  background-color: #ffffff;
+  background-image: url("http://flashchat.club/wp-content/uploads/2018/03/grey-geometric-wallpaper-modern-x-geometric-fan-wallpaper-roll-grey-and-white-geometric-pattern-wallpaper.jpg");
+  background-size: 150px;
+  background-repeat: repeat;
+  margin: auto;
+}
+
+.classic {
+  font-family: 'Great Vibes', cursive;
+}
+
+.gaudy {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.gothic {
+  font-family: 'Abril Fatface', cursive;
+}
+
+header {
+  padding: 10px 0 10px 0;
+  margin: 0 0 30px 0;
+  color: #212121;
+  background-color: #ffffff;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 28px;
+}
+
+h2 {
+  font-family: 'Assistant', sans-serif;
+  font-size: 14px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+main {
+  background-color: #ffffff;
+  padding: 10px 10px 10px 10px;
+  width: 400px;
+  font-size: 25px;
+  margin: auto auto 15px auto;
+  height: 30px;
+  color: #212121;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.designer-container {
+  
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+#designer-input {
+  font-family: 'Assistant', sans-serif;
+  font-size: 14px;
+  margin: 15px 15px 30px 15px;
+  padding: 30px 0 30px 0;
+  background-color: #ffffff;
+  width: 400px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#designer-output {
+  font-family: 'Assistant', sans-serif;
+  text-align: center;
+  margin: 15px 15px 30px 15px;
+  padding: 30px 0 30px 0;
+  background-image: url("https://images.unsplash.com/photo-1511184150666-9bb7d41a88f4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=be5c750379d253e0b07d1200c1361991&auto=format&fit=crop&w=1500&q=80");
+  background-size: 700px;
+  background-position: end; 
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#submitbutton {
+  font-family: 'Assistant', sans-serif;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  color: #212121;
+  height: 25px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+}
+
+footer {
+  font-family: 'Assistant', sans-serif;
+  background-color: #ffffff;
+  margin: auto;
+  font-size: 12px;
+  line-height: 16px;
+  color: #212121;
+  text-align: center;
+  width: 100%;
+  padding: 10px 5px 10px 5px;
+}

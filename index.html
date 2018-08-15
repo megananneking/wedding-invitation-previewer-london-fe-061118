@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+  <title>Just Wed</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Build your own wedding invitation">
+  <meta name="keywords" content="wedding, invite, generator, creator">
+  <meta name="author" content="Megan King">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reenie+Beanie|Assistant|Abril+Fatface|Great+Vibes|Permanent+Marker">
+  <script src="index.js"></script>
+</head>
+
+<body>
+  
+  <div class="flex-container">
+    
+    <header>
+      <h1>BYOWeddingInvite.com</h1>
+      <h2>No-fuss-luv</h2>
+    </header>
+    
+    <main>
+      <h4 class="classic">Classic</h4>
+      <h4 class="gaudy">Gaudy</h4>
+      <h4 class="gothic">Gothic</h4>
+    </main>
+    
+    <div class="designer-container">
+    
+      <div id="designer-input">
+        <form class="designer">
+          <p>
+            Give us your details and we'll rustle something up for you.
+          </p>
+          <p>
+            <label for="input-name-one">First Name</label>
+            <input type="text" id="input-name-one" name="input-name-one" required>
+          </p>
+          <p>
+            <label for="input-name-two">Second Name</label>
+            <input type="text" id="input-name-two" name="input-name-two" required>
+          </p>
+          <p>
+            <label for="input-surname">Surname</label>
+            <input type="text" id="input-surname" name="input-surname" required>
+          </p>
+          <p>
+            <label for="input-date">Wedding Date</label>
+            <input type="date" name="input-date">
+          </p>
+          <p>
+            <label for="input-location">Wedding Location</label>
+            <input type="text" id="input-location" name="input-location" required>
+          </p>
+        </form>
+      </div>
+    
+      <div id="designer-output">
+        <div class="inner-box">
+          <p>Congratulations!</p>
+          <span id="output-name-one"></span> & <span id="output-name-two"></span>
+          <p>want you at their wedding. Isn't that lovely?</p>
+          <p>------</p>
+          <p>The <span id="output-surname"></span> Wedding</p>
+          <p>When? <span id="output-date"></span></p>
+          <p>Where?<span id="output-location"></span></p>
+          <p>...Why?</p>
+        </div>
+      </div>
+      
+    </div>
+    
+    <footer>
+      <p>Not into any of our designs? Us neither. Get in touch to request a new one and we might think about it.</p>
+      <form class="signup">
+        <label for="fullname">Name</label>
+        <input type="text" id="firstname" name="firstname" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="fullname" required>
+        <label for="message">Message</label>
+        <input type="text" id="message" name="message" required>
+        <input type="submit" id="submitbutton" name="submit" required>
+      </form>
+      <p></p>
+    </footer>
+  
+  </div>
+  
+</body>
